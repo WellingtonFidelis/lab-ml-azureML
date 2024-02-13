@@ -70,22 +70,22 @@ In this tutorial, you will explore Automated Machine Learning (AutoML) in Azure 
 
 ### Predicted versus True value
 
-![Predicted vs True value](./img/results/predicted_vs_true_value.jpg "Predicted vs True value")
+![Predicted vs True value](./predicted_vs_true_value.jpg "Predicted vs True value")
 
 ### Residuals Histogram
 
-![Residuals Histogram](./img/results/residuals_histogram.jpg "Residuals Histogram")
+![Residuals Histogram](./residuals_histogram.jpg "Residuals Histogram")
 
 ### Other metrics
 
-![Other Metrics](./img/results/residuals_histogram.jpg "Other Metrics")
+![Other Metrics](./residuals_histogram.jpg "Other Metrics")
 
 ## Testing the deployed service
 
 1. Go to the "predict-rentals" endpoint in "Endpoints" in Azure Machine Learning Studio
 2. On the "Test" tab, replace the input JSON with the following:
 
-ˋˋˋjson
+```json
 {
   "Inputs": {
     "data": [
@@ -107,17 +107,17 @@ In this tutorial, you will explore Automated Machine Learning (AutoML) in Azure 
   },
   "GlobalParameters": 1.0
 }
-ˋˋˋ
+```
 
 **Result**:
 
-ˋˋˋjson
+```json
 {
   "Results": [
     261.96447636276866
   ]
 }
-ˋˋˋ
+```
 
 3. Check if the result is on average of the espected value comparing with the metrics images
 
