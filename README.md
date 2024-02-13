@@ -78,7 +78,7 @@ In this tutorial, you will explore Automated Machine Learning (AutoML) in Azure 
 
 ### Other metrics
 
-![Other Metrics](./residuals_histogram.jpg "Other Metrics")
+![Other Metrics](./other_metrics.jpg "Other Metrics")
 
 ## Testing the deployed service
 
